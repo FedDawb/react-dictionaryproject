@@ -1,3 +1,22 @@
 .Dictionary {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  font-family: Arial, sans-serif;
 }
+.search-form {
+  width: 100%;
+  max-width: 400px; 
+}
+
+.search-input {
+  width: 100%; 
+  padding: 12px 15px;
+  font-size: 16px;
+  border-radius: 25px;
+  border: 1px solid #ccc; 
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  outline: none; 
+  transition: all 0.3s;
+}    

@@ -22,6 +22,21 @@
   margin: 30px 0;
 }
 
+.word-images {
+  display: flex;
+  justify-content: center;           
+  gap: 15px;               
+  margin-bottom: 16px;  
+  align-items: center;   
+}
+
+.word-images img {
+  width: 175px;            
+  height: 175px;
+  object-fit: cover;       
+  border-radius: 6px;      
+}
+
 .Results {
   background: #f0f4f8;
   padding: 20px;
